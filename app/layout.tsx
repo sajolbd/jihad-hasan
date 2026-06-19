@@ -16,8 +16,7 @@ const josefinSans = Josefin_Sans({
   variable: "--font-josefin-sans",
 });
 
-const siteUrl = "https://jihad-hasan-editor.vercel.app/";
-const ogImageUrl = `${siteUrl}/opengraph-image.png`;
+const siteUrl = "https://jihad-hasan.vercel.app";
 
 /* ---------------- METADATA ---------------- */
 
@@ -36,20 +35,11 @@ export const metadata: Metadata = {
     siteName: "JihadHasan",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: ogImageUrl,
-        width: 1200,
-        height: 630,
-        alt: "JihadHasan Video Editor Portfolio",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "JihadHasan | Professional Video Editor",
     description: "Professional video editing services. Transforming raw footage into cinematic masterpieces for brands, creators, and advertising campaigns.",
-    images: [ogImageUrl],
   },
 };
 
